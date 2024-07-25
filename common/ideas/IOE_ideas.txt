@@ -1,9 +1,11 @@
 RRP_ideas = {
 	start = {
-
+		ae_impact = -0.1
+		can_revoke_parliament_seats = yes
 	}
 
 	bonus = {
+		discipline = 0.05
 	}
 
 	trigger = {
@@ -11,4 +13,28 @@ RRP_ideas = {
 	}
 
 	free = yes
+	auxiliary_suppoort = {
+		global_manpower_modifier = 0.2
+	}
+	trireme_ship_designs  = {
+		galley_power = 0.1
+		galley_cost = -0.1
+	}
+	establish_the_senate  = {
+		diplomats = 1
+	}
+	build_castras  = {
+		defensiveness = 0.10
+		garrison_size = 0.10
+	}
+	all_roads_lead_to_rome = {
+		culture_conversion_cost = -0.15
+	}
+	superior_administration  = {
+		administrative_efficiency = 0.1
+	}
+	organize_armys_in_legions  = {
+		infantry_power = 0.20
+	}
+
 }
