@@ -1,7 +1,9 @@
-every_province = {
-	limit = {
-		region = italy_region
-	}
-	cede_province = RRP
-	add_core = RRP
-}
+#y_province = {
+#limit = {
+#	region = italy_region
+#}
+#cede_province = RRP
+#add_core = RRP
+#
+
+swap_free_idea_group = yes

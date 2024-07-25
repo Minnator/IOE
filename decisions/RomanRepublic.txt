@@ -8,7 +8,10 @@ country_decisions = {
 		}
 
 		allow = {
-			owns_core_province = 118			
+			owns_core_province = 118		
+			RRP = {
+				exists = no
+			}	
 		}
 
 		effect = {
@@ -21,6 +24,9 @@ country_decisions = {
 					add_core = RRP
 					change_culture = roman
 					add_center_of_trade_level = 2
+					RRP = {
+						swap_free_idea_group = yes
+					}
 				}
 			}
 			if = {
@@ -68,16 +74,12 @@ country_decisions = {
 					dip = 3
 					mil = 4
 				}
-				add_ruler_personality = strict_personality
+				add_ruler_personality = strict_personality				
 			}
-
+			
 			switch_tag = RRP
-			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
-			country_event = {
-				id = ideagroups.0
-			}
-
+			
 			hidden_effect = {
 				europe = {
 					discover_country = RRP
@@ -88,7 +90,8 @@ country_decisions = {
 				name = IOE_established_rrp
 				duration = 3650
 			}
-			
+				
+
 		}
 	}
 }
