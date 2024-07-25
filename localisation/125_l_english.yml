@@ -2,4 +2,5 @@
 RRP:0 "Roman Republic"
 RRP_ADJ:0 "Roman"
 
-IOE_form_roman_republic:0 "Establish the Roman Republic"
+IOE_form_roman_republic_title:0 "Establish the Roman Republic"
+IOE_form_roman_republic_desc:0 "Banishes the Pope to France and establishes a new Roman Republic in Rome. The Pope will be able to return to Rome if the Roman Republic is destroyed."
