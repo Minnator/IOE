@@ -26,6 +26,7 @@ country_decisions = {
 					add_center_of_trade_level = 2
 					RRP = {
 						swap_free_idea_group = yes
+						swap_non_generic_missions = yes
 					}
 				}
 			}
@@ -78,7 +79,6 @@ country_decisions = {
 			}
 			
 			switch_tag = RRP
-			swap_non_generic_missions = yes
 			
 			hidden_effect = {
 				europe = {

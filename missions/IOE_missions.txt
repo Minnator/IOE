@@ -1,0 +1,101 @@
+
+IOE_slot_one = { # SLot == Spalte
+
+    slot = 1
+    generic = no
+    ai = yes
+    
+    potential = {
+        tag = RRP
+    }
+
+    has_country_shield = yes
+
+    IOE_conquer_perugia = {
+        icon = "mission_son_fetishist_alliances"
+        required_missions = {
+            
+        }
+
+        trigger = {
+            owns_core_province = 2976
+        }
+
+        provinces_to_highlight = {
+            province_id = 2976
+        }
+
+        effect = {
+            add_permanent_claim = 2977
+
+        }
+    }
+
+    IOE_conquer_sabina = {
+        icon = "mission_son_fetishist_alliances"
+        position = 3
+
+        required_missions = {
+            IOE_conquer_perugia
+        }
+
+        trigger = {
+            owns_core_province = 2977
+        }
+
+        effect = {
+            add_permanent_claim = 2978
+        }
+    }
+}
+
+
+IOE_slot_two = { # SLot == Spalte
+
+    slot = 2
+    generic = no
+    ai = yes
+    
+    potential = {
+        tag = RRP
+    }
+
+    has_country_shield = yes
+
+    IOE_conquer_perugia2 = {
+        icon = "mission_son_fetishist_alliances"
+        required_missions = {
+            
+        }
+
+        trigger = {
+            owns_core_province = 2976
+        }
+
+        provinces_to_highlight = {
+            province_id = 2976
+        }
+
+        effect = {
+            add_permanent_claim = 2977
+
+        }
+    }
+
+    IOE_conquer_sabina2 = {
+        icon = "mission_son_fetishist_alliances"
+        position = 3
+
+        required_missions = {
+            IOE_conquer_perugia
+        }
+
+        trigger = {
+            owns_core_province = 2977
+        }
+
+        effect = {
+            add_permanent_claim = 2978
+        }
+    }
+}
