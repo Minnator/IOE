@@ -14,13 +14,13 @@ country_decisions = {
 		effect = {
 			free_vassal = URB
 			free_vassal = PGA
-			
+
 			118 = {
 				cede_province = RRP
-					hidden_effect = {						
-						add_core = RRP
-						change_culture = roman
-					}
+				hidden_effect = {						
+					add_core = RRP
+					change_culture = roman
+				}
 			}
 			if = {
 				limit = {
@@ -67,13 +67,25 @@ country_decisions = {
 					dip = 3
 					mil = 4
 				}
+				add_ruler_personality = strict_personality
 			}
 
-			change_tag = RRP
+			switch_tag = RRP
 			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			country_event = {
 				id = ideagroups.0
+			}
+
+			hidden_effect = {
+				europe = {
+					discover_country = RRP
+				}
+			}
+
+			add_country_modifier = {
+				name = IOE_established_rrp
+				duration = 3650
 			}
 			
 		}
