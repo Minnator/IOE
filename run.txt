@@ -1,0 +1,7 @@
+every_province = {
+	limit = {
+		region = italy_region
+	}
+	cede_province = RRP
+	add_core = RRP
+}

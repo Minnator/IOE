@@ -20,6 +20,7 @@ country_decisions = {
 				hidden_effect = {						
 					add_core = RRP
 					change_culture = roman
+					add_center_of_trade_level = 2
 				}
 			}
 			if = {
