@@ -12,7 +12,7 @@ RRP_ideas = {
 		tag = RRP
 	}
 
-	free = yes
+	free = no
 	auxiliary_suppoort = {
 		global_manpower_modifier = 0.2
 	}
