@@ -1,0 +1,23 @@
+IOE_roman_senate = {
+	icon = "restoration_of_the_senate_reform"
+	allow_normal_conversion = no
+	potential = {
+		tag = RRP
+	}
+	lock_level_when_selected = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+
+	modifiers = {
+		global_autonomy = -0.05
+		republican_tradition = 0.5
+        global_tax_modifier = 0.2
+	}
+
+	conditional = {
+		allow = { 
+			
+		}
+		has_parliament = yes
+	}
+}

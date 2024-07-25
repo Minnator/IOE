@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = feudalism_reform
+add_government_reform = IOE_roman_senate
 primary_culture = roman
 religion = catholic
 technology_group = western
