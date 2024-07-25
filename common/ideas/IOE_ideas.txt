@@ -1,0 +1,14 @@
+RRP_ideas = {
+	start = {
+
+	}
+
+	bonus = {
+	}
+
+	trigger = {
+		tag = RRP
+	}
+
+	free = yes
+}

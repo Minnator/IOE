@@ -12,23 +12,26 @@ country_decisions = {
 		}
 
 		effect = {
-			PAP = {
-				free_vassal = URB
-				free_vassal = PGA
-			}
+			free_vassal = URB
+			free_vassal = PGA
+			
 			118 = {
-				add_core = RRP
 				cede_province = RRP
-				change_culture = roman
+					hidden_effect = {						
+						add_core = RRP
+						change_culture = roman
+					}
 			}
 			if = {
 				limit = {
 					owns_core_province = 4732
 				}
 				4732 = {
-					add_core = RRP
 					cede_province = RRP
-					change_culture = roman
+					hidden_effect = {						
+						add_core = RRP
+						change_culture = roman
+					}
 				}
 			}
 			if = {
@@ -36,9 +39,11 @@ country_decisions = {
 					owns_core_province = 4731
 				}
 				4731 = {
-					add_core = RRP
 					cede_province = RRP
-					change_culture = roman
+					hidden_effect = {						
+						add_core = RRP
+						change_culture = roman
+					}
 				}
 			}
 			if = {
@@ -46,18 +51,22 @@ country_decisions = {
 					owns_core_province = 119
 				}
 				119 = {
-					add_core = RRP
 					cede_province = RRP
-					change_culture = roman
+					hidden_effect = {						
+						add_core = RRP
+						change_culture = roman
+					}
 				}
 			}
 
-			define_ruler = {
-				name = "Augustus II."
-				dynasty = "Caesar"
-				adm = 5
-				dip = 3
-				mil = 4
+			RRP = {
+				define_ruler = {
+					name = "Augustus II."
+					dynasty = "Caesar"
+					adm = 5
+					dip = 3
+					mil = 4
+				}
 			}
 
 			change_tag = RRP
